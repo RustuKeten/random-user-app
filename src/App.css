@@ -60,3 +60,7 @@
   display: flex;
   gap:1.8rem;
  }
+ .par{
+  color: rgb(56, 13, 13);
+  overflow-wrap:break-word;
+ }

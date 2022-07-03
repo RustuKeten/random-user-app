@@ -33,8 +33,8 @@ function App() {
         <div key={index} className="card-wrapper">
           <div className="header-container">
             <img src={item.picture.large} alt="user" />
-            <p className="header">
-              {item.name.title} {item.name.first} {item.name.last}
+            <p className="header"><strong>
+              {item.name.title} {item.name.first} {item.name.last}</strong>
             </p>
           </div>
           <div className="par-container">
