@@ -1,9 +1,16 @@
 .App{
   margin: 16rem;
+  position: relative;
+  justify-content: center;
+  text-align: center;
 }
 
 .card-wrapper{
-  background-color: rgb(121, 187, 187);
+  color: rgb(12, 12, 12);
+  border: 2px solid blue;
+  border-radius: 5px;
+  background-color: linear-gradient(bottom,rgb(121, 187, 187)) ;
+  font-size: 1.2rem;
   box-shadow: 
   rgba(5, 108, 126, 0.4) 5px 5px, 
   rgba(20, 139, 155, 0.3) 10px 10px, 
@@ -31,4 +38,26 @@
   margin:5px
   
 }
+ button{
+  display: flex;
+  margin-left: 8rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  background-color: rgb(46, 153, 185);
+  height: 3rem;
+  width: 9rem;
+  color: white;
+  border-radius: 2px;
+  border: none;
+  font-size: larger;
 
+ 
+ }
+
+ .par-container{
+  margin-left: 3rem;
+  display: flex;
+  gap:1.8rem;
+  overflow: ;
+ }

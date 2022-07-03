@@ -37,7 +37,7 @@ function App() {
               {item.name.title} {item.name.first} {item.name.last}
             </p>
           </div>
-          <div className="email">
+          <div className="par-container">
             <img src={emailSvg} alt="" className="icon" />
             <p className="par">{item.email}</p>
           </div>
