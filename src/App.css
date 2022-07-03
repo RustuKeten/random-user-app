@@ -1,20 +1,34 @@
+.App{
+  margin: 16rem;
+}
+
 .card-wrapper{
   background-color: rgb(121, 187, 187);
-  border: 2px solid red;
+  box-shadow: 
+  rgba(5, 108, 126, 0.4) 5px 5px, 
+  rgba(20, 139, 155, 0.3) 10px 10px, 
+  rgba(37, 156, 172, 0.3) 10px 10px, 
+  rgba(75, 218, 243, 0.2) 15px 15px, 
+  rgba(70, 181, 196, 0.1) 20px 20px, 
+  rgba(150, 226, 240, 0.05) 25px 25px;
+  
   height: 40%;
   width: 400px;
 }
 .icon{
   width: 2.4rem;
 }
-.header{
-  display: inline-block;
+.header-container{
+  display: flex;
   margin:5px
 }
-img{
-  margin: 10px 30px;
-  border-radius:  50%;
+.header{
+  margin: 3rem;
 }
-.par-container img p{
-   display: inline-block;
+
+.header-container img{
+  border-radius: 50%;
+  margin:5px
+  
 }
+
